@@ -31,11 +31,11 @@ body,
 @media (prefers-color-scheme: dark) {
   body {
     background-color: rgb(24, 24, 24);
-    color: rgb(245, 245, 245);
+    color: rgb(255, 255, 255);
   }
 
   a {
-    color: rgb(245, 245, 245);
+    color: rgb(255, 255, 255);
   }
 }
 
@@ -45,14 +45,14 @@ a {
 }
 
 a :hover {
-  color: gray;
+  color: white;
 }
 
 /* 'main' contains hero icon, card, and reload icon */
 .main {
   min-height: 30%;
-  width: 60%;
-  min-width: 60%;
+  width: 90%;
+  min-width: 90%;
 }
 
 /* on small screens, main container is more narrow */
@@ -67,7 +67,7 @@ a :hover {
   margin: 1rem;
   padding: 1rem 2rem;
   height: 100%;
-  background-color: rgba(182, 224, 250, 0.479);
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
   font-size: 1.2rem;
 }
